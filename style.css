@@ -1,0 +1,52 @@
+@keyframes roda{
+    
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(170);
+    }
+    100%{
+        trnasform: rotate(360deg);
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 1280px)
+{
+    
+.btn-success{
+    margin: auto;
+    width: 120px;
+}
+   
+}
+
+@media (min-width: 0px) and (max-width: 450px)
+{
+  .logo
+   {
+    display: none;
+   }
+   
+}
+@media (min-width: 0px) and (max-width: 350px)
+{
+  .lista
+   {
+    flex-direction:column;
+    width: 100%;
+    flex-wrap: wrap;
+   }
+   .elemento_lista a{
+       margin-top: 3px;
+       margin-bottom: 3px;
+   }
+   .navbar{
+    justify-content: center;
+    }
+   .navbar ul{
+       margin: 1px;
+       padding: 0;
+   }
+}
